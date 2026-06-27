@@ -1,0 +1,24 @@
+.carousel-img {
+  height: 75vh;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+.carousel-caption {
+  bottom: 30%;
+}
+
+.carousel-caption h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.carousel-caption .btn {
+  padding: 12px 30px;
+  font-weight: 600;
+}

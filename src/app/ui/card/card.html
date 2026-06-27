@@ -1,0 +1,47 @@
+<div class="card product-card border-0 shadow-lg h-100">
+
+  <!-- <span class="badge bg-danger sale-badge">
+    20% OFF
+  </span> -->
+
+  <img
+    src="{{ productData.image }}"
+    class="card-img-top product-img"
+    alt="Product"
+  />
+
+  <div class="card-body">	
+
+    <h5 class="card-title fw-bold">
+      {{ productData.title }}
+    </h5>
+
+    <p class="text-muted small">
+      {{ productData.description }}
+    </p>
+
+    <div class="mb-2 text-warning">
+      ★★★★★
+      <span class="text-muted small">({{ productData.rating.count }} Reviews)</span>
+    </div>
+
+    <div class="mb-3">
+      <span class="fs-4 fw-bold text-primary">
+        ₹{{ productData.price }} 
+      </span>
+
+      <!-- <span class="text-muted text-decoration-line-through ms-2">₹3,499</span> -->
+    </div>
+
+    <div class="d-grid gap-2">
+      <button class="btn btn-outline-dark" [routerLink]="['/product-detail', productData.id]" >
+        View Details
+      </button>
+      <button class="btn btn-warning fw-semibold">
+        Add to Cart
+      </button>
+
+    </div>
+
+  </div>
+</div>

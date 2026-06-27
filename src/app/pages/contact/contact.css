@@ -1,0 +1,16 @@
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+iframe {
+  min-height: 350px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.card-body p {
+  font-size: 1rem;
+}

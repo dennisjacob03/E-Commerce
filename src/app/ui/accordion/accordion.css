@@ -1,0 +1,16 @@
+.custom-accordion .accordion-item {
+  border: none;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.custom-accordion .accordion-button {
+  font-weight: 600;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+  background-color: #ffc107;
+  color: #000;
+}

@@ -1,0 +1,27 @@
+.category-card {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+}
+
+.category-card i {
+  font-size: 3rem;
+  color: #ffc107;
+  margin-bottom: 15px;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}

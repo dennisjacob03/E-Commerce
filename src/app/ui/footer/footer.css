@@ -1,0 +1,34 @@
+.footer {
+  margin-top: 80px;
+}
+
+.footer-link {
+  color: #adb5bd;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ffc107;
+  transform: translateX(5px);
+}
+
+.social-icons a {
+  color: #adb5bd;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffc107;
+}
+
+hr {
+  opacity: 0.2;
+}
+
+p {
+  color: #adb5bd;
+}
